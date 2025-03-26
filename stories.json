@@ -1,10 +1,14 @@
 {
   "the_magic_mango_tree": {
     "title": "The Magic Mango Tree",
-    "images": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp"]
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
   },
   "the_talking_river": {
     "title": "The Talking River",
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+  },
+  "the_mango_thief": {
+    "title": "The Mango Thief",
     "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
   }
 }
