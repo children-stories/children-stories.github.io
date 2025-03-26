@@ -20,52 +20,49 @@ h1 {
 }
 
 /* Story Container */
-.story {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#story-container {
     position: relative;
     max-width: 100%;
-    height: auto;
+    text-align: center;
 }
 
 /* Main Image */
 #story-image {
-    max-width: 100%; /* Prevents horizontal overflow */
-    max-height: 70vh; /* Ensures it fits within the screen */
-    width: auto; /* Maintain aspect ratio */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra spacing */
-    margin: 0 auto; /* Center the image */
+    max-width: 100%;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 /* Navigation Buttons */
-button {
-    background-color: #007bff;
+#prev-btn,
+#next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 10px;
-    font-size: 18px;
+    padding: 15px;
+    font-size: 24px;
     cursor: pointer;
     border-radius: 5px;
-    margin: 5px;
+    transition: background 0.3s;
 }
 
-button:hover {
-    background-color: #0056b3;
+#prev-btn {
+    left: 10px;
+}
+#next-btn {
+    right: 10px;
 }
 
-/* Mobile-friendly buttons */
-@media (max-width: 600px) {
-    .slider {
-        flex-direction: column;
-    }
-
-    button {
-        width: 80%;
-        font-size: 16px;
-        padding: 8px;
-    }
+#prev-btn:hover,
+#next-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 /* Thumbnail section */
@@ -90,10 +87,56 @@ button:hover {
     border: 2px solid #007bff;
 }
 
-/* Mobile-friendly thumbnails */
-@media (max-width: 600px) {
+/* Story Link */
+#story-container .story-link {
+    margin-top: 10px;
+}
+
+#story-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#story-link:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+    #prev-btn,
+    #next-btn {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    /* Ensure buttons are inside the image */
+    .story {
+        position: relative;
+    }
+
+    #prev-btn,
+    #next-btn {
+        width: 50px;
+        height: 50px;
+        padding: 0;
+        font-size: 18px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    /* Adjust thumbnails for mobile */
     .thumbnail {
-        width: 40px;
+        width: 50px;
         height: 30px;
+    }
+
+    /* Improve button spacing */
+    button {
+        width: auto;
+        font-size: 16px;
+        padding: 8px;
     }
 }
