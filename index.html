@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bedtime Stories</title>
+        <link rel="stylesheet" href="assets/styles.css" />
+    </head>
+    <body>
+        <h1 id="story-title">Bedtime Stories</h1>
+        <div id="content">
+            <div id="home"></div>
+            <!-- Home Page Placeholder -->
+
+            <!-- Story Section (Hidden Initially) -->
+            <div id="story-container" style="display: none">
+                <div class="story">
+                    <button onclick="prevImage()">&#10094; Prev</button>
+                    <img id="story-image" src="" alt="Story Image" />
+                    <button onclick="nextImage()">Next &#10095;</button>
+                </div>
+
+                <!-- Thumbnails Section -->
+                <div id="thumbnails"></div>
+
+                <!-- Autoplay Controls -->
+                <button id="autoplay-btn" onclick="toggleAutoplay()">
+                    ▶ Play
+                </button>
+            </div>
+        </div>
+
+        <script src="assets/script.js"></script>
+    </body>
+</html>
