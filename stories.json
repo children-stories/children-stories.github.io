@@ -1,14 +1,42 @@
 {
   "the_magic_mango_tree": {
     "title": "The Magic Mango Tree",
-    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
+    "images": [
+      { "src": "1.jpg", "title": "The Village and Drought" },
+      { "src": "2.jpg", "title": "Finding the Magic Mango Tree" },
+      { "src": "3.jpg", "title": "The Talking Tree" },
+      { "src": "4.jpg", "title": "Sharing the Mango" },
+      {
+        "src": "5.jpg",
+        "title": "The Miracle – A Tree Full of Golden Mangoes"
+      },
+      { "src": "6.jpg", "title": "The Greedy Man" },
+      {
+        "src": "7.jpg",
+        "title": "The Tree Disappears: Sharing brings abundance, but greed leads to loss."
+      }
+    ]
   },
   "the_talking_river": {
     "title": "The Talking River",
-    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+    "images": [
+      { "src": "1.png", "title": "Meena by the River" },
+      { "src": "2.png", "title": " Meena Cleans the River"},
+      { "src": "3.png", "title": "The River is smiling"  },
+      { "src": "4.png", "title": "The River's gift" },
+      { "src": "5.png", "title": "Meena's Joyful Home with golden fish" },
+      { "src": "6.png", "title": "The Whispering River" }
+    ]
   },
   "the_mango_thief": {
     "title": "The Mango Thief",
-    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+    "images": [
+      { "src": "1.jpg", "title": "Village and Mango Tree" },
+      { "src": "2.jpg", "title": "Dadaji Notices the Missing Mangoes" },
+      { "src": "3.jpg", "title": "Dadaji Hides to Catch the Thief" },
+      { "src": "4.jpg", "title": "Chintu is Caught" },
+      { "src": "5.jpg", "title": "Dadaji Shows Kindness" },
+      { "src": "6.jpg", "title": "Happy Ending with Children Picking Mangoes" }
+    ]
   }
 }

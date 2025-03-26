@@ -51,13 +51,14 @@ function loadStory(story) {
 // Initialize story
 function initializeStory(images) {
   const storyImage = document.getElementById("story-image");
+  const storySubtitle = document.getElementById("story-subtitle");
   const thumbnailsDiv = document.getElementById("thumbnails");
   thumbnailsDiv.innerHTML = ""; // Clear old thumbnails
 
   // Generate thumbnails
-  images.forEach((img, index) => {
+  images.forEach((imgData, index) => {
     const thumb = document.createElement("img");
-    thumb.src = `stories/${storyName}/${img}`;
+    thumb.src = `stories/${storyName}/${imgData.src}`;
     thumb.classList.add("thumbnail");
     thumb.onclick = () => showImage(index);
     thumbnailsDiv.appendChild(thumb);
@@ -65,7 +66,9 @@ function initializeStory(images) {
 
   function showImage(index) {
     currentIndex = (index + images.length) % images.length;
-    storyImage.src = `stories/${storyName}/${images[currentIndex]}`;
+    const image = images[currentIndex];
+    storyImage.src = `stories/${storyName}/${image.src}`;
+    storySubtitle.textContent = image.title;
 
     // Ensure image scales properly without horizontal scrolling
     storyImage.style.maxWidth = "100%"; // Fit within screen width
