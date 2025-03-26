@@ -22,14 +22,16 @@ fetch("stories.json")
       "<h2>Error loading stories.</h2>";
   });
 
-// Show available stories on home page
+// Show available stories on the home page
 function showHomePage() {
-  let homeContent = "<h2>Available Stories</h2><ul>";
-  Object.keys(storiesData).forEach((story) => {
-    homeContent += `<li><a href="?story=${story}">${storiesData[story].title}</a></li>`;
-  });
-  homeContent += "</ul>";
-  document.getElementById("home").innerHTML = homeContent;
+  const listItems = Object.keys(storiesData)
+    .map(
+      (story) =>
+        `<li><a href="?story=${story}">${storiesData[story].title}</a></li>`,
+    )
+    .join("");
+
+  document.getElementById("home").innerHTML = "<ul>" + listItems + "</ul>";
 }
 
 // Load selected story
