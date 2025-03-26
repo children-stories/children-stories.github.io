@@ -27,7 +27,7 @@ function showHomePage() {
   const listItems = Object.keys(storiesData)
     .map(
       (story) =>
-        `<li><a href="?story=${story}">${storiesData[story].title}</a></li>`,
+        `<li class="story-item"><a href="?story=${story}">${storiesData[story].title}</a></li>`,
     )
     .join("");
 

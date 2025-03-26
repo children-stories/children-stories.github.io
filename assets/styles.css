@@ -103,7 +103,18 @@ h1 {
 #story-link:hover {
     text-decoration: underline;
 }
+.story-item {
+    margin-bottom: 10px;
+}
 
+.autoplay-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.all-stories {
+    margin-top: 10px;
+}
 /* Mobile Styling */
 @media (max-width: 768px) {
     #prev-btn,
