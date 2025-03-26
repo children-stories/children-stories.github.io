@@ -19,8 +19,8 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Slider Container */
-.slider {
+/* Story Container */
+.story {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@ h1 {
 }
 
 /* Main Image */
-#slider-image {
+#story-image {
     max-width: 100%; /* Prevents horizontal overflow */
     max-height: 70vh; /* Ensures it fits within the screen */
     width: auto; /* Maintain aspect ratio */

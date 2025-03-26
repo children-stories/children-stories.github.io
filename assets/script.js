@@ -36,6 +36,8 @@ function showHomePage() {
 function loadStory(story) {
   document.title = storiesData[story].title;
   document.getElementById("story-title").textContent = storiesData[story].title;
+  document.getElementById("story-link").href =
+    "stories/" + story + "/README.md";
 
   // Hide home and show story
   document.getElementById("home").style.display = "none";
