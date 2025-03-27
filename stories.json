@@ -20,12 +20,12 @@
   "the_talking_river": {
     "title": "The Talking River",
     "images": [
-      { "src": "1.png", "title": "Meena by the River" },
-      { "src": "2.png", "title": " Meena Cleans the River"},
-      { "src": "3.png", "title": "The River is smiling"  },
-      { "src": "4.png", "title": "The River's gift" },
-      { "src": "5.png", "title": "Meena's Joyful Home with golden fish" },
-      { "src": "6.png", "title": "The Whispering River" }
+      { "src": "1.webp", "title": "Meena by the River" },
+      { "src": "2.webp", "title": "Meena Cleans the River" },
+      { "src": "3.webp", "title": "The River is smiling"  },
+      { "src": "4.webp", "title": "The River's gift" },
+      { "src": "5.webp", "title": "Meena's Joyful Home with golden fish" },
+      { "src": "6.webp", "title": "The Whispering River" }
     ]
   },
   "the_mango_thief": {
