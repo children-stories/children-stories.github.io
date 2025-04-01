@@ -52,6 +52,7 @@ function loadStory(story) {
 function initializeStory(images) {
   const storyImage = document.getElementById("story-image");
   const storySubtitle = document.getElementById("story-subtitle");
+  const storySubtext = document.getElementById("story-subtext");
   const thumbnailsDiv = document.getElementById("thumbnails");
   thumbnailsDiv.innerHTML = ""; // Clear old thumbnails
 
@@ -69,6 +70,7 @@ function initializeStory(images) {
     const image = images[currentIndex];
     storyImage.src = `stories/${storyName}/${image.src}`;
     storySubtitle.textContent = image.title;
+    storySubtext.textContent = image.description;
 
     // Ensure image scales properly without horizontal scrolling
     storyImage.style.maxWidth = "100%"; // Fit within screen width

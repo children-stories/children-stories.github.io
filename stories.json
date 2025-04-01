@@ -2,41 +2,141 @@
   "the_magic_mango_tree": {
     "title": "The Magic Mango Tree",
     "images": [
-      { "src": "1.jpg", "title": "The Village and Drought" },
-      { "src": "2.jpg", "title": "Finding the Magic Mango Tree" },
-      { "src": "3.jpg", "title": "The Talking Tree" },
-      { "src": "4.jpg", "title": "Sharing the Mango" },
+      {
+        "src": "1.jpg",
+        "title": "Village Struck by Drought",
+        "description": "A small Indian village suffers under a brutal drought. Rohan, a kind-hearted boy, walks with his grandmother past cracked earth and wilted crops."
+      },
+      {
+        "src": "2.jpg",
+        "title": "Discovery of the Golden Mango",
+        "description": "Rohan finds a lone mango tree in the forest, its branches holding a single glowing golden mango. The tree’s leaves shimmer magically."
+      },
+      {
+        "src": "3.jpg",
+        "title": "The Tree’s Message",
+        "description": "The mango tree speaks to Rohan, its voice gentle. Rohan listens intently as it says, 'Share my mango, and I will give more.'"
+      },
+      {
+        "src": "4.jpg",
+        "title": "Rohan Shares the Mango",
+        "description": "Rohan cuts the golden mango into pieces, distributing it to hungry villagers. Their faces light up with gratitude."
+      },
       {
         "src": "5.jpg",
-        "title": "The Miracle – A Tree Full of Golden Mangoes"
+        "title": "The Tree’s Bounty",
+        "description": "At dawn, the tree is laden with golden mangoes. Villagers gather joyfully, filling baskets with the magical fruit."
       },
-      { "src": "6.jpg", "title": "The Greedy Man" },
       {
-        "src": "7.jpg",
-        "title": "The Tree Disappears: Sharing brings abundance, but greed leads to loss."
+        "src": "6.jpg",
+        "title": "Greed and the Tree’s Departure",
+        "description": "A greedy man hoards mangoes, ignoring the tree’s warning. The tree shakes violently and vanishes into the sky, leaving the man empty-handed."
       }
     ]
   },
   "the_talking_river": {
     "title": "The Talking River",
     "images": [
-      { "src": "1.webp", "title": "Meena by the River" },
-      { "src": "2.webp", "title": "Meena Cleans the River" },
-      { "src": "3.webp", "title": "The River is smiling"  },
-      { "src": "4.webp", "title": "The River's gift" },
-      { "src": "5.webp", "title": "Meena's Joyful Home with golden fish" },
-      { "src": "6.webp", "title": "The Whispering River" }
+      {
+        "src": "1.webp",
+        "title": "Meena by the River",
+        "description": "Meena, a young girl, sits by the riverbank, watching the water flow gently."
+      },
+      {
+        "src": "2.webp",
+        "title": "Meena Cleans the River",
+        "description": "Meena uses a tree branch to clean the river, removing debris and trash."
+      },
+      {
+        "src": "3.webp",
+        "title": "The River is smiling",
+        "description": "The river smiles at Meena, thanking her for her kindness."
+      },
+      {
+        "src": "4.webp",
+        "title": "The River's gift",
+        "description": "The river gives Meena a gift, a golden fish."
+      },
+      {
+        "src": "5.webp",
+        "title": "Meena's Joyful Home with golden fish",
+        "description": "Meena's home is filled with joy, as she and her family enjoy the golden fish."
+      },
+      {
+        "src": "6.webp",
+        "title": "The Whispering River",
+        "description": "The river whispers secrets to Meena, telling her about the world beyond."
+      }
     ]
   },
   "the_mango_thief": {
     "title": "The Mango Thief",
     "images": [
-      { "src": "1.jpg", "title": "Village and Mango Tree" },
-      { "src": "2.jpg", "title": "Dadaji Notices the Missing Mangoes" },
-      { "src": "3.jpg", "title": "Dadaji Hides to Catch the Thief" },
-      { "src": "4.jpg", "title": "Chintu is Caught" },
-      { "src": "5.jpg", "title": "Dadaji Shows Kindness" },
-      { "src": "6.jpg", "title": "Happy Ending with Children Picking Mangoes" }
+      {
+        "src": "1.jpg",
+        "title": "Village and Mango Tree",
+        "description": "A village with a mango tree, where children play and adults work."
+      },
+      {
+        "src": "2.jpg",
+        "title": "Dadaji Notices the Missing Mangoes",
+        "description": "Dadaji, the village elder, notices the missing mangoes and decides to catch the thief."
+      },
+      {
+        "src": "3.jpg",
+        "title": "Dadaji Hides to Catch the Thief",
+        "description": "Dadaji hides in the shadows to catch the thief."
+      },
+      {
+        "src": "4.jpg",
+        "title": "Chintu is Caught",
+        "description": "Chintu, the thief, is caught by Dadaji."
+      },
+      {
+        "src": "5.jpg",
+        "title": "Dadaji Shows Kindness",
+        "description": "Dadaji shows kindness to Chintu and helps him and gives mangoes for his mother."
+      },
+      {
+        "src": "6.jpg",
+        "title": "Happy Ending with Children Picking Mangoes",
+        "description": "The children pick mangoes from the tree and share them with their families."
+      }
+    ]
+  },
+  "lily_and_the_sleepy_moon": {
+    "title": "Lily and the Sleepy Moon",
+    "images": [
+      {
+        "src": "1.jpg",
+        "title": "Lily's Playful Day in the Meadow",
+        "description": "Lily, a cheerful white bunny, plays with her friends (a squirrel, bird, and rabbit) in a sunny meadow filled with flowers."
+      },
+      {
+        "src": "2.jpg",
+        "title": "Lily Chases Fireflies at Sunset",
+        "description": "As the sun sets, Lily stubbornly chases fireflies, ignoring the rising moon’s gentle glow."
+      },
+      {
+        "src": "3.jpg",
+        "title": "The Moon's Gentle Whisper",
+        "description": "The moon speaks to Lily, urging her to rest, its soft light wrapping around her like a comforting blanket."
+      },
+      {
+        "src": "4.jpg",
+        "title": "Lily's Cozy Burrow Bed",
+        "description": "Lily curls up in her hay-lined burrow, listening to the night breeze’s lullaby as moonlight streams through the window."
+      },
+      {
+        "src": "5.jpg",
+        "title": "Lily's Dreamland Adventure",
+        "description": "Lily dreams of floating on clouds, surrounded by twinkling stars and the smiling moon."
+      },
+      {
+        "src": "6.jpg",
+        "title": "Morning Joy with Friends",
+        "description": "Energetic after a good night’s sleep, Lily leaps through the dew-covered meadow with her friends at sunrise."
+      }
     ]
   }
 }

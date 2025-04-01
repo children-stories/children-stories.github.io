@@ -26,6 +26,13 @@ h1 {
     text-align: center;
 }
 
+.story-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    width: 100%; /* Match the parent container */
+}
+
 /* Main Image */
 #story-image {
     max-width: 100%;
@@ -34,7 +41,14 @@ h1 {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 10px;
+}
+
+#story-subtext {
+    text-align: left;
+    display: block; /* Make the span a block element */
+    width: 100%; /* Match the container's width */
+    max-width: 70vh; /* Sync with the image's max-width constraint */
+    margin: 0 auto; /* Center align if narrower than container */
 }
 
 /* Navigation Buttons */
