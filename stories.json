@@ -29,8 +29,13 @@
       },
       {
         "src": "6.jpg",
-        "title": "Greed and the Tree’s Departure",
-        "description": "A greedy man hoards mangoes, ignoring the tree’s warning. The tree shakes violently and vanishes into the sky, leaving the man empty-handed."
+        "title": "Greed man",
+        "description": "A greedy man hoards mangoes, ignoring the tree’s warning."
+      },
+      {
+        "src": "7.jpg",
+        "title": "The Tree’s Departure",
+        "description": "The tree shakes violently and vanishes into the sky, leaving the man empty-handed."
       }
     ]
   },
