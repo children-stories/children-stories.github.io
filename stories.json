@@ -143,5 +143,45 @@
         "description": "Energetic after a good night’s sleep, Lily leaps through the dew-covered meadow with her friends at sunrise."
       }
     ]
+  },
+  "leo_learns_to_do_it_himself": {
+    "title": "Leo Learns to Do It Himself",
+    "images": [
+      {
+        "src": "1.jpg",
+        "title": "Leo Wakes Up Ready to Learn",
+        "description": "Leo, a cheerful little boy, sits up in bed, stretching his arms and smiling, ready to start the day."
+      },
+      {
+        "src": "2.jpg",
+        "title": "Leo Tries to Get Dressed",
+        "description": "Leo struggles to put on his red shirt, accidentally getting his head stuck in the sleeve, giggling as he tries again."
+      },
+      {
+        "src": "3.jpg",
+        "title": "Leo Pours Water Carefully",
+        "description": "Leo, with a concentrated expression, carefully pours water into a cup, spilling a little but trying again."
+      },
+      {
+        "src": "4.jpg",
+        "title": "Leo Puts On His Shoes",
+        "description": "Leo sits on the floor, looking down at his shoes, realizing he has put them on the wrong feet."
+      },
+      {
+        "src": "5.jpg",
+        "title": "Leo Peels a Banana for Snack",
+        "description": "Leo holds a banana with both hands, peeling it with excitement as he prepares his own snack."
+      },
+      {
+        "src": "6.jpg",
+        "title": "Leo Brushes His Teeth",
+        "description": "Leo stands at the bathroom sink, brushing his teeth with too much toothpaste but smiling as he learns."
+      },
+      {
+        "src": "7.jpg",
+        "title": "Leo Snuggles into Bed",
+        "description": "Leo, tucked under a cozy blanket, yawns and smiles, feeling proud of all he did today."
+      }
+    ]
   }
 }
