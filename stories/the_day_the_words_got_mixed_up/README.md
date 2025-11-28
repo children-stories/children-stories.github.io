@@ -1,4 +1,4 @@
-# The day the words got mixed up
+# The Day the Words got Mixed-up
 
 Characters: Leo the Lion Cub, Mama Lion, and Teacher Owl
 

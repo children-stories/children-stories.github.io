@@ -5,3 +5,4 @@
 ## [The Mango Thief](https://children-stories.github.io/?story=the_mango_thief)
 ## [Lily and the Sleepy Moon](https://children-stories.github.io/?story=lily_and_the_sleepy_moon)
 ## [Leo Learns to Do It Himself](https://children-stories.github.io/?story=leo_learns_to_do_it_himself)
+## [The Day the Words got Mixed-up](https://children-stories.github.io/?story=the_day_the_words_got_mixed_up)
