@@ -70,7 +70,7 @@ function initializeStory(images) {
     const image = images[currentIndex];
     storyImage.src = `stories/${storyName}/${image.src}`;
     storySubtitle.textContent = image.title;
-    storySubtext.textContent = image.description;
+    storySubtext.innerHTML = image.description;
 
     // Ensure image scales properly without horizontal scrolling
     storyImage.style.maxWidth = "100%"; // Fit within screen width
